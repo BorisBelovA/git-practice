@@ -20,6 +20,7 @@ export class AppComponent {
   public feed$ = this.tweetsSetvice.getTweets();
 
   public onNewTweet(text: string) {
+  console.log("hello from git practice"):
     this.tweetsSetvice.addTweet(text)
   }
 }
